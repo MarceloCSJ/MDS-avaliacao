@@ -1,0 +1,14 @@
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Data\obj\Debug\net9.0\MDS.Data.csproj.AssemblyReference.cache
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Data\obj\Debug\net9.0\MDS.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Data\obj\Debug\net9.0\MDS.Data.AssemblyInfoInputs.cache
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Data\obj\Debug\net9.0\MDS.Data.AssemblyInfo.cs
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Data\obj\Debug\net9.0\MDS.Data.csproj.CoreCompileInputs.cache
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Data\bin\Debug\net9.0\MDS.Data.deps.json
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Data\bin\Debug\net9.0\MDS.Data.dll
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Data\bin\Debug\net9.0\MDS.Data.pdb
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Data\obj\Debug\net9.0\MDS.Data.dll
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Data\obj\Debug\net9.0\refint\MDS.Data.dll
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Data\obj\Debug\net9.0\MDS.Data.pdb
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Data\obj\Debug\net9.0\ref\MDS.Data.dll
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Data\bin\Debug\net9.0\MDS.Data.runtimeconfig.json
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Data\obj\Debug\net9.0\MDS.Data.genruntimeconfig.cache
