@@ -1,4 +1,5 @@
 using System.Text.Json.Serialization;
+using Microsoft.AspNetCore.Mvc;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,5 +19,17 @@ app.MapGet("/motivacional", () => "Aqui contém uma frase motivacional, para lhe
 paginasGroup.MapGet("/", () => {
     List<Pagina> paginas = new DiarioServicos().ListarFolhas();
     return paginas;
+});
+paginasGroup.MapPost("/", ([FromBody] Pagina pagina) =>{
+    new DiarioServicos().InserirFolha(pagina);
+    return "Registro inserido com sucesso!";
+});
+paginasGroup.MapPut("/", ([FromBody] Pagina pagina) =>{
+    new DiarioServicos().EditarFolha(pagina);
+    return "Registro editado com sucesso!";
+});
+paginasGroup.MapDelete("/", ([FromBody] Pagina pagina) =>{
+    new DiarioServicos().RemoverFolha(pagina);
+    return "Registro deletado com sucesso!";
 });
 app.Run();
