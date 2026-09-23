@@ -10,7 +10,7 @@ public class DiarioServicos
         Pagina folha = new Pagina();
         Console.Write("§| Digite o título da página de hoje: \n§| ");
         folha.Titulo = Console.ReadLine();
-        business.TituloFoiInformado(folha.Titulo);
+        business.TituloFoiInformado(folha.Titulo!);
         Console.WriteLine("§| ");
         Console.Write("§| Digite o conteúdo da sua página aqui: \n§| ");
         folha.Conteudo = Console.ReadLine();
@@ -20,19 +20,18 @@ public class DiarioServicos
         Console.WriteLine("§|");
         Console.WriteLine("§| Página salva com sucesso!");
     }
-    public void ListarFolhas()
+    public List<Pagina> ListarFolhas()
     {
         Console.WriteLine("§| Lista das páginas do Diário:");
         try
         {
-            diarioDAO.ListarFolhas();
+            return diarioDAO.ListarFolhas();
         }
         catch (System.Exception e)
         {
             Console.WriteLine($"§| {e.Message}");
             throw;
         }
-        
     }
     public void EditarFolha()
     {
