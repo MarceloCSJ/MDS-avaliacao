@@ -1133,6 +1133,29 @@
         "runtime": {
           "lib/net9.0/ZstdSharp.dll": {}
         }
+      },
+      "MDS.Business/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "MDS.Model": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MDS.Business.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MDS.Business.dll": {}
+        }
+      },
+      "MDS.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/MDS.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MDS.Model.dll": {}
+        }
       }
     }
   },
@@ -3328,10 +3351,22 @@
         "zstdsharp.port.0.8.6.nupkg.sha512",
         "zstdsharp.port.nuspec"
       ]
+    },
+    "MDS.Business/1.0.0": {
+      "type": "project",
+      "path": "../MDS.Business/MDS.Business.csproj",
+      "msbuildProject": "../MDS.Business/MDS.Business.csproj"
+    },
+    "MDS.Model/1.0.0": {
+      "type": "project",
+      "path": "../MDS.Model/MDS.Model.csproj",
+      "msbuildProject": "../MDS.Model/MDS.Model.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "MDS.Business >= 1.0.0",
+      "MDS.Model >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 9.0.19",
       "Microsoft.EntityFrameworkCore.Design >= 9.0.19",
       "MySql.Data >= 9.7.0",
@@ -3339,19 +3374,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Prog_Sis\\.nuget\\packages\\": {}
+    "C:\\Users\\a\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\workplace\\DesenvolvedorWeb\\BackEnd\\MDS\\MDS.Data\\MDS.Data.csproj",
+      "projectUniqueName": "C:\\workplace\\DesenvolvedorWeb\\BackEnd\\MDS\\MDS.Data\\MDS.Data.csproj",
       "projectName": "MDS.Data",
-      "projectPath": "c:\\workplace\\DesenvolvedorWeb\\BackEnd\\MDS\\MDS.Data\\MDS.Data.csproj",
-      "packagesPath": "C:\\Users\\Prog_Sis\\.nuget\\packages\\",
-      "outputPath": "c:\\workplace\\DesenvolvedorWeb\\BackEnd\\MDS\\MDS.Data\\obj\\",
+      "projectPath": "C:\\workplace\\DesenvolvedorWeb\\BackEnd\\MDS\\MDS.Data\\MDS.Data.csproj",
+      "packagesPath": "C:\\Users\\a\\.nuget\\packages\\",
+      "outputPath": "C:\\workplace\\DesenvolvedorWeb\\BackEnd\\MDS\\MDS.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Prog_Sis\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\a\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -3362,7 +3397,14 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\workplace\\DesenvolvedorWeb\\BackEnd\\MDS\\MDS.Business\\MDS.Business.csproj": {
+              "projectPath": "C:\\workplace\\DesenvolvedorWeb\\BackEnd\\MDS\\MDS.Business\\MDS.Business.csproj"
+            },
+            "C:\\workplace\\DesenvolvedorWeb\\BackEnd\\MDS\\MDS.Model\\MDS.Model.csproj": {
+              "projectPath": "C:\\workplace\\DesenvolvedorWeb\\BackEnd\\MDS\\MDS.Model\\MDS.Model.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -3416,7 +3458,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.311/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.318/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

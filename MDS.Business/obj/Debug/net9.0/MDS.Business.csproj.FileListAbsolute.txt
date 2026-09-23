@@ -1,0 +1,16 @@
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Business\bin\Debug\net9.0\MDS.Business.deps.json
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Business\bin\Debug\net9.0\MDS.Business.dll
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Business\bin\Debug\net9.0\MDS.Business.pdb
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Business\bin\Debug\net9.0\MDS.Model.dll
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Business\bin\Debug\net9.0\MDS.Model.pdb
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Business\obj\Debug\net9.0\MDS.Business.csproj.AssemblyReference.cache
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Business\obj\Debug\net9.0\MDS.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Business\obj\Debug\net9.0\MDS.Business.AssemblyInfoInputs.cache
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Business\obj\Debug\net9.0\MDS.Business.AssemblyInfo.cs
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Business\obj\Debug\net9.0\MDS.Business.csproj.CoreCompileInputs.cache
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Business\obj\Debug\net9.0\MDS.Business.sourcelink.json
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Business\obj\Debug\net9.0\MDS.Busi.1A6DCA87.Up2Date
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Business\obj\Debug\net9.0\MDS.Business.dll
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Business\obj\Debug\net9.0\refint\MDS.Business.dll
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Business\obj\Debug\net9.0\MDS.Business.pdb
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Business\obj\Debug\net9.0\ref\MDS.Business.dll

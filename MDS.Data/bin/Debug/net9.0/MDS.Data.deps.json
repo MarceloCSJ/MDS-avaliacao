@@ -8,6 +8,8 @@
     ".NETCoreApp,Version=v9.0": {
       "MDS.Data/1.0.0": {
         "dependencies": {
+          "MDS.Business": "1.0.0",
+          "MDS.Model": "1.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.19",
           "Microsoft.EntityFrameworkCore.Design": "9.0.19",
           "MySql.Data": "9.7.0",
@@ -773,6 +775,25 @@
             "fileVersion": "0.8.6.0"
           }
         }
+      },
+      "MDS.Business/1.0.0": {
+        "dependencies": {
+          "MDS.Model": "1.0.0"
+        },
+        "runtime": {
+          "MDS.Business.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "MDS.Model/1.0.0": {
+        "runtime": {
+          "MDS.Model.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -1152,6 +1173,16 @@
       "sha512": "sha512-iP4jVLQoQmUjMU88g1WObiNr6YKZGvh4aOXn3yOJsHqZsflwRsxZPcIBvNXgjXO3vQKSLctXGLTpcBPLnWPS8A==",
       "path": "zstdsharp.port/0.8.6",
       "hashPath": "zstdsharp.port.0.8.6.nupkg.sha512"
+    },
+    "MDS.Business/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MDS.Model/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

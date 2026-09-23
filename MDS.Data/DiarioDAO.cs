@@ -1,6 +1,6 @@
 using System.Linq.Expressions;
-using MDS.Data;
 using MySql.Data.MySqlClient;
+namespace MDS.Data;
 
 public class DiarioDAO
 {
@@ -20,25 +20,25 @@ public class DiarioDAO
         }
         
     }
-    public List<Pagina> ListarFolhas()
+    public void ListarFolhas()
     {
         List<Pagina> lista = conexao.Paginas.ToList();
 
             foreach (var r in lista)
             {
-                Console.WriteLine("-----------------------------------");
-                Console.WriteLine($"ID: {r.Id}");
-                Console.WriteLine($"Título: {r.Titulo}");
-                Console.WriteLine($"Data: {r.DataPagina:dd/MM/yyyy}");
-                Console.WriteLine($"Conteúdo: {r.Conteudo}");
-                Console.WriteLine();
+                Console.WriteLine("§|_____________________________________");
+                Console.WriteLine("§|");
+                Console.WriteLine($"§| ID: {r.Id}");
+                Console.WriteLine($"§| Título: {r.Titulo}");
+                Console.WriteLine($"§| Data: {r.DataPagina:dd/MM/yyyy}");
+                Console.WriteLine($"§| Conteúdo: {r.Conteudo}");
             }
+            Console.WriteLine($"§|_____________________________________");
 
             if (lista.Count == 0)
             {
                 Console.WriteLine("§| Nenhum registro encontrado.");
             }
-        return null!;
     }
     public void EditarFolha(Pagina pagina)
     {

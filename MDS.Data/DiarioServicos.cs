@@ -1,20 +1,23 @@
 using MDS.Data;
+using MDS.Business;
 
 public class DiarioServicos
 {
     DiarioDAO diarioDAO = new DiarioDAO();
+    PaginaBusiness business = new PaginaBusiness();
     public void InserirFolha()
     {
         Pagina folha = new Pagina();
         Console.Write("§| Digite o título da página de hoje: \n§| ");
         folha.Titulo = Console.ReadLine();
+        business.TituloFoiInformado(folha.Titulo);
         Console.WriteLine("§| ");
         Console.Write("§| Digite o conteúdo da sua página aqui: \n§| ");
         folha.Conteudo = Console.ReadLine();
         diarioDAO.InserirFolha(folha);
 
 
-        Console.WriteLine("");
+        Console.WriteLine("§|");
         Console.WriteLine("§| Página salva com sucesso!");
     }
     public void ListarFolhas()

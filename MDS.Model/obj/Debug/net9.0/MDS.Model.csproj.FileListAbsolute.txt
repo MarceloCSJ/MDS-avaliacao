@@ -1,0 +1,12 @@
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Model\bin\Debug\net9.0\MDS.Model.deps.json
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Model\bin\Debug\net9.0\MDS.Model.dll
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Model\bin\Debug\net9.0\MDS.Model.pdb
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Model\obj\Debug\net9.0\MDS.Model.GeneratedMSBuildEditorConfig.editorconfig
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Model\obj\Debug\net9.0\MDS.Model.AssemblyInfoInputs.cache
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Model\obj\Debug\net9.0\MDS.Model.AssemblyInfo.cs
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Model\obj\Debug\net9.0\MDS.Model.csproj.CoreCompileInputs.cache
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Model\obj\Debug\net9.0\MDS.Model.sourcelink.json
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Model\obj\Debug\net9.0\MDS.Model.dll
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Model\obj\Debug\net9.0\refint\MDS.Model.dll
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Model\obj\Debug\net9.0\MDS.Model.pdb
+C:\workplace\DesenvolvedorWeb\BackEnd\MDS\MDS.Model\obj\Debug\net9.0\ref\MDS.Model.dll
