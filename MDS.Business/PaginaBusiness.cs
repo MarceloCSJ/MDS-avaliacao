@@ -5,7 +5,7 @@ namespace MDS.Business;
 public class PaginaBusiness 
 {
     // um método bool para cada regra de negócio
-    public bool TituloFoiInformado(String pagina)
+    public bool TituloFoiInformado(Pagina pagina)
     {
         // Implementar dentro de cada método um try/catch
         // try se verdadeiro
