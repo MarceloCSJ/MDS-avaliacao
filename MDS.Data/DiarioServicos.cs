@@ -7,7 +7,6 @@ public class DiarioServicos
     public void InserirFolha(Pagina pagina)
     {
         diarioDAO.InserirFolha(pagina);
-        
     }
     public List<Pagina> ListarFolhas()
     {
