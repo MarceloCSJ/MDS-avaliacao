@@ -11,6 +11,12 @@ var builder = WebApplication.CreateBuilder(args);
 
 var app = builder.Build();
 
+app.MapPost("/login/auth", () =>
+{
+    TokenService authService = new TokenService(builder.Configuration);
+    return authService.GerarToken(null!);
+});
+
 var paginasGroup = app.MapGroup("/registros");
 
 //app.MapGet("/", () => "Hello World!");
